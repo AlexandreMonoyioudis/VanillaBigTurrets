@@ -6,7 +6,6 @@
   health: 1200
   size: 2
   inaccuracy: 2
-  rotateSpeed: 12
   ammoUseEffect: casing1
   reload: 1000
   range: 220
@@ -15,7 +14,7 @@
   researchCostMultiplier: 0.35
   buildCostMultiplier: 0.75
   coolantMultiplier: 20
-  ammoPerShot: 10
+  ammoPerShot: 15
 
   consumes: {
   coolant: {
@@ -30,8 +29,9 @@
 
   ammoTypes: {
     copper: {
+      ammoMultiplier: 1
       speed: 20
-      damage: 100
+      damage: 60
       bulletWidth: 20
       bulletHeight: 22
       lifetime: 40
@@ -40,8 +40,9 @@
     }
 
     graphite: {
+      ammoMultiplier: 5
       speed: 20
-      damage: 120
+      damage: 80
       bulletWidth: 20
       bulletHeight: 22
       lifetime: 40
@@ -56,7 +57,7 @@
 	  status: burning
 		pierce: true
       speed: 20
-      damage: 120
+      damage: 90
       bulletWidth: 20
       bulletHeight: 22
       lifetime: 40
