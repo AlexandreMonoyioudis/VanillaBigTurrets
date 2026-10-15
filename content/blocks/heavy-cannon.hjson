@@ -31,14 +31,14 @@
 
   ammoTypes: {
     copper: {
-      ammoMultiplier: 1
+      ammoMultiplier: 4
       speed: 20
       damage: 25
       bulletWidth: 20
       bulletHeight: 22
       lifetime: 40
 	    reloadMultiplier: 2
-      shootEffect: "shootBig2"
+      shootEffect: "shootBig"
     }
 
     lead: {
