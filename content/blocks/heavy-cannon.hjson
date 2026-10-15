@@ -33,7 +33,7 @@
     copper: {
       ammoMultiplier: 4
       speed: 20
-      damage: 25
+      damage: 50
       bulletWidth: 20
       bulletHeight: 22
       lifetime: 40
@@ -41,10 +41,35 @@
       shootEffect: "shootBig"
     }
 
+    scrap:	{
+		type: ArtilleryBulletType
+		speed: 10
+		splashDamage: 45
+		splashDamageRadius: 20
+		knockback: 0
+		lifetime: 20
+		width: 20
+		height: 20
+		collidesTiles: true
+		fragBullet: {
+			type: BasicBulletType
+			speed: 5
+			damage: 10
+			width: 10
+			height: 12
+			shrinkY: 1
+			lifetime: 15
+			despawnEffect: none
+			collidesAir: true
+		}
+		fragBullets: 10
+	  reloadMultiplier: 0.5
+	} 
+
     lead: {
       ammoMultiplier: 1
       speed: 10
-      damage: 100
+      damage: 200
       bulletWidth: 120
       bulletHeight: 120
       lifetime: 40
@@ -56,7 +81,7 @@
     titanium: {
       ammoMultiplier: 10
       speed: 20
-      damage: 80
+      damage: 160
       bulletWidth: 80
       bulletHeight: 80
       lifetime: 40
@@ -71,7 +96,7 @@
 	  status: burning
 		pierce: true
       speed: 20
-      damage: 75
+      damage: 150
       bulletWidth: 80
       bulletHeight: 80
       lifetime: 40
