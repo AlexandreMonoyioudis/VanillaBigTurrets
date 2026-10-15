@@ -1,0 +1,19 @@
+{
+  // The name displayed in the in-game mod list
+  displayName: "VanillaBigTurrets"
+
+  // Internal unique identifier (use dashes, no spaces)
+  name: "VanillaBigTurrets"
+
+  // Your name or handle
+  author: "AlexandreMonoyioudis"
+
+  // A short description of what your mod adds to the game
+  description: "Turret spam is boring. These turrets are bigger stronger but require more complex supply chains."
+
+  // The current version of your mod
+  version: "1.0"
+
+  // The minimum Mindustry game version required to run this mod
+  minGameVersion: "146"
+}

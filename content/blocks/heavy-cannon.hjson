@@ -1,0 +1,69 @@
+{
+  type: "ItemTurret"
+  name: "Heavy-Cannon"
+  localizedName: "Heavy Cannon"
+  description: "The heavy cannon is fires a single powerful shot. The cannon requires a massive amount of coolant to shoot continuously."
+  health: 1200
+  size: 2
+  inaccuracy: 2
+  rotateSpeed: 12
+  ammoUseEffect: casing1
+  reload: 1000
+  range: 220
+  recoil: 2
+  shootSound: "bang"
+  researchCostMultiplier: 0.35
+  buildCostMultiplier: 0.75
+  coolantMultiplier: 20
+  ammoPerShot: 10
+
+  consumes: {
+  coolant: {
+    amount: 1
+  }
+}
+
+  requirements: [
+    copper/350
+    lead/150
+  ]
+
+  ammoTypes: {
+    copper: {
+      speed: 20
+      damage: 100
+      bulletWidth: 20
+      bulletHeight: 22
+      lifetime: 40
+		  pierce: true
+      shootEffect: "shootSmall"
+    }
+
+    graphite: {
+      speed: 20
+      damage: 120
+      bulletWidth: 20
+      bulletHeight: 22
+      lifetime: 40
+		  pierce: true
+      shootEffect: "shootSmall"
+    }
+
+    pyratite: {
+    ammoMultiplier: 10
+	  frontColor: FC9D5DFF
+	  backColor: FFAD7DFF
+	  status: burning
+		pierce: true
+      speed: 20
+      damage: 120
+      bulletWidth: 20
+      bulletHeight: 22
+      lifetime: 40
+      shootEffect: "shootSmall"
+    }
+  }
+
+  category: "turret"
+  research: "duo"
+}
