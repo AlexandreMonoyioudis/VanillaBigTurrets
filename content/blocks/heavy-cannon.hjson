@@ -10,7 +10,7 @@
   reload: 500
   range: 220
   recoil: 4
-  shootSound: "shootBig"
+  shootSound: "shootSpectre"
   researchCostMultiplier: 0.35
   buildCostMultiplier: 0.75
   coolantMultiplier: 10
