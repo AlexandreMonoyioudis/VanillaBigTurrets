@@ -2,7 +2,7 @@
   type: "ItemTurret"
   name: "Chain-Cannon"
   localizedName: "Chain Cannon"
-  description: "The chain cannon is fires at a rapid pace. The cannon requires a constant supply of ammunition to shoot continuously."
+  description: "(WIP) The chain cannon is fires at a rapid pace. The cannon requires a constant supply of ammunition to shoot continuously."
   health: 3000
   size: 4
   inaccuracy: 5
