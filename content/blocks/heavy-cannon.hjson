@@ -9,7 +9,7 @@
   ammoUseEffect: casing1
   reload: 500
   range: 220
-  recoil: 4
+  recoil: 2
   shootSound: "shootSpectre"
   researchCostMultiplier: 0.35
   buildCostMultiplier: 0.75
