@@ -2,18 +2,18 @@
   type: "ItemTurret"
   name: "Heavy-Cannon"
   localizedName: "Heavy Cannon"
-  description: "The heavy cannon is fires a single powerful shot. The cannon requires a massive amount of coolant to shoot continuously."
-  health: 1200
+  description: "The heavy cannon is fires heavy metals. The cannon requires a massive amount of coolant to shoot continuously."
+  health: 600
   size: 2
-  inaccuracy: 2
+  inaccuracy: 1
   ammoUseEffect: casing1
-  reload: 1000
+  reload: 500
   range: 220
-  recoil: 2
-  shootSound: "bang"
+  recoil: 4
+  shootSound: "shootBig"
   researchCostMultiplier: 0.35
   buildCostMultiplier: 0.75
-  coolantMultiplier: 20
+  coolantMultiplier: 10
   ammoPerShot: 15
 
   consumes: {
@@ -23,45 +23,58 @@
 }
 
   requirements: [
-    copper/350
-    lead/150
+    copper/250
+    lead/350
+    metaglass/10
   ]
 
   ammoTypes: {
     copper: {
       ammoMultiplier: 1
       speed: 20
-      damage: 60
+      damage: 25
       bulletWidth: 20
       bulletHeight: 22
       lifetime: 40
-		  pierce: true
-      shootEffect: "shootSmall"
+	    reloadMultiplier: 2
+      shootEffect: "shootBig2"
     }
 
-    graphite: {
-      ammoMultiplier: 5
-      speed: 20
-      damage: 80
-      bulletWidth: 20
-      bulletHeight: 22
+    lead: {
+      ammoMultiplier: 1
+      speed: 10
+      damage: 100
+      bulletWidth: 120
+      bulletHeight: 120
       lifetime: 40
 		  pierce: true
-      shootEffect: "shootSmall"
+      shootEffect: "shootBig2"
+	    reloadMultiplier: 0.5
+    }
+
+    titanium: {
+      ammoMultiplier: 10
+      speed: 20
+      damage: 80
+      bulletWidth: 80
+      bulletHeight: 80
+      lifetime: 40
+		  pierce: true
+      shootEffect: "shootBig2"
     }
 
     pyratite: {
-    ammoMultiplier: 10
+    ammoMultiplier: 5
 	  frontColor: FC9D5DFF
 	  backColor: FFAD7DFF
 	  status: burning
 		pierce: true
       speed: 20
-      damage: 90
-      bulletWidth: 20
-      bulletHeight: 22
+      damage: 75
+      bulletWidth: 80
+      bulletHeight: 80
       lifetime: 40
-      shootEffect: "shootSmall"
+      shootEffect: "shootBig2"
     }
   }
 
