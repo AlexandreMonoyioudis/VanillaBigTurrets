@@ -24,8 +24,8 @@
 }
 
   requirements: [
-    copper/250
-    lead/350
+    copper/150
+    lead/150
     metaglass/10
   ]
 
@@ -124,5 +124,5 @@
   }
 
   category: "turret"
-  research: "duo"
+  research: "wave"
 }
