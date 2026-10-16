@@ -14,8 +14,8 @@
   researchCostMultiplier: 0.35
   buildCostMultiplier: 0.75
   coolantMultiplier: 10
-  maxAmmo: 45
-  ammoPerShot: 15
+  maxAmmo: 3
+  ammoPerShot: 1
 
   consumes: {
   coolant: {
@@ -31,9 +31,8 @@
 
   ammoTypes: {
     copper: {
-      ammoMultiplier: 4
       speed: 20
-      damage: 50
+      damage: 25
       bulletWidth: 20
       bulletHeight: 22
       lifetime: 40
@@ -41,10 +40,10 @@
       shootEffect: "shootBig"
     }
 
-    scrap:	{
+    metaglass:	{
 		type: ArtilleryBulletType
 		speed: 10
-		splashDamage: 45
+		splashDamage: 40
 		splashDamageRadius: 20
 		knockback: 0
 		lifetime: 20
@@ -64,12 +63,11 @@
 		}
 		fragBullets: 10
 	  reloadMultiplier: 0.5
-	} 
+	}
 
     lead: {
-      ammoMultiplier: 1
       speed: 10
-      damage: 200
+      damage: 100
       bulletWidth: 120
       bulletHeight: 120
       lifetime: 40
@@ -78,10 +76,33 @@
 	    reloadMultiplier: 0.5
     }
 
-    titanium: {
-      ammoMultiplier: 10
+    graphite: {
       speed: 20
-      damage: 160
+      damage: 125
+      bulletWidth: 120
+      bulletHeight: 120
+      lifetime: 40
+		  pierce: true
+      shootEffect: "shootBig2"
+	    reloadMultiplier: 0.5
+    }
+
+    silicon: {
+      speed: 20
+      damage: 125
+      bulletWidth: 120
+      bulletHeight: 120
+      lifetime: 40
+		  pierce: true
+      shootEffect: "shootBig2"
+	    reloadMultiplier: 0.5
+      homingPower: 0.5
+      homingRange: 1
+    }
+
+    titanium: {
+      speed: 20
+      damage: 80
       bulletWidth: 80
       bulletHeight: 80
       lifetime: 40
@@ -90,13 +111,11 @@
     }
 
     pyratite: {
-    ammoMultiplier: 5
 	  frontColor: FC9D5DFF
 	  backColor: FFAD7DFF
 	  status: burning
-		pierce: true
       speed: 20
-      damage: 150
+      damage: 125
       bulletWidth: 80
       bulletHeight: 80
       lifetime: 40
