@@ -1,0 +1,45 @@
+{
+  type: "ItemTurret"
+  name: "Swarm-launcher"
+  localizedName: "Swarm Launcher"
+  description: "(WIP) The Swarmer launcher shoots tiny homing drones that attack the enemy like angry wasps. Effective against groups."
+  health: 5000
+  size: 4
+  inaccuracy: 200
+  ammoUseEffect: casing1
+  reload: 20
+  range: 400
+  recoil: 0
+  shootSound: "shootSmall"
+  researchCostMultiplier: 0.35
+  buildCostMultiplier: 0.75
+  maxAmmo: 10
+  ammoPerShot: 1
+
+  consumes: {
+  power: 4
+}
+
+  requirements: [
+    copper/150
+    graphite/200
+    silicon/100
+  ]
+
+  ammoTypes: {
+    silicon: {
+      ammoMultiplier: 1
+      speed: 5
+      damage: 10
+      bulletWidth: 20
+      bulletHeight: 20
+      lifetime: 200
+		  pierce: true
+      homingPower: 0.1
+      homingRange: 50
+    }
+  }
+
+  category: "turret"
+  research: "ground-factory"
+}
