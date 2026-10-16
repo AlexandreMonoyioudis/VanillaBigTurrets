@@ -1,0 +1,30 @@
+{
+  name: "rebuild"
+  type: "BuildTurret"
+  localizedName: "rebuild"
+  description: "(WIP) rebuilds destroyed structures."
+  
+  health: 300
+  size: 2
+  reload: 30f
+  range: 60f
+	reload: 1,
+  buildSpeed: 1.5f
+	ammoUseEffect: none
+	targetInterval: 1
+  mineTier: 3
+  mineSpeed: 4f
+  powerUse: 1.5f
+  consumePower: 3f
+  requirements: [
+    copper/40
+    lead/30
+    silicon/20
+  ]
+  researchCost: [
+    copper/300
+    silicon/200
+  ]
+  category: "effect"
+  research: "duo"
+}
