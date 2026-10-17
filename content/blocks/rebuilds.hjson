@@ -6,14 +6,14 @@
   
   health: 300
   size: 2
-  reload: 30f
-  range: 60f
+  reload: 100f
+  range: 100f
 	reload: 1,
-  buildSpeed: 1.5f
+  buildSpeed: .2f
 	ammoUseEffect: none
-	targetInterval: 1
+	targetInterval: 10
   mineTier: 3
-  mineSpeed: 4f
+  mineSpeed: .1f
   powerUse: 1.5f
   consumePower: 3f
   requirements: [
