@@ -9,13 +9,16 @@
   reload: 100f
   range: 100f
 	reload: 1,
-  buildSpeed: .2f
+  buildSpeed: .1f
 	ammoUseEffect: none
-	targetInterval: 10
+	targetInterval: 100
   mineTier: 3
   mineSpeed: .1f
-  powerUse: 1.5f
-  consumePower: 3f
+
+consumes: {
+  power: 10
+}
+
   requirements: [
     copper/40
     lead/30
