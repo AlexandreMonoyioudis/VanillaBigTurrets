@@ -8,7 +8,6 @@
   size: 2
   reload: 100f
   range: 100f
-	reload: 1,
   buildSpeed: .1f
 	ammoUseEffect: none
 	targetInterval: 100
