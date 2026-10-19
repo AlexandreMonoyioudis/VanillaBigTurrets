@@ -8,7 +8,7 @@
   size: 2
   reload: 100f
   range: 100f
-  buildSpeed: .1f
+  buildSpeed: .4f
 	ammoUseEffect: none
 	targetInterval: 100
   mineTier: 3

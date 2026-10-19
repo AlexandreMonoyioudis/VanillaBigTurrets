@@ -8,7 +8,7 @@
   size: 6
   reload: 10f
   range: 300f
-  buildSpeed: .5f
+  buildSpeed: 1f
 	ammoUseEffect: none
 	targetInterval: 150
   mineTier: 3
@@ -24,8 +24,11 @@ consumes: {
     silicon/20
   ]
   researchCost: [
-    copper/300
-    silicon/200
+    copper/500
+    lead/500
+    graphite/3000
+    silicon/2000
+    titanium/3000
   ]
   category: "effect"
   research: "rebuild"
