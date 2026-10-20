@@ -10,7 +10,7 @@
   range: 300f
   buildSpeed: 1f
 	ammoUseEffect: none
-	targetInterval: 150
+	targetInterval: 50
   mineTier: 3
   mineSpeed: .1f
 
