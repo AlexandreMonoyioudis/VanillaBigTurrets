@@ -1,11 +1,15 @@
 {
 	name: "medium solar panel"
+    localizedName: "medium solar panel"
 	description: "2x2 solar panel."
 	type: "SolarGenerator"
 	health: 180
 	size: 2
 	hasPower: true
 	powerProduction: 0.5
+  researchCostMultiplier: 0.35
+  buildCostMultiplier: 0.75
+  
 	requirements: [
     lead/60
     silicon/40
