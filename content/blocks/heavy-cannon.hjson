@@ -14,7 +14,7 @@
   researchCostMultiplier: 0.35
   buildCostMultiplier: 0.75
   coolantMultiplier: 10
-  maxAmmo: 3
+  maxAmmo: 5
   ammoPerShot: 1
 
   consumes: {
