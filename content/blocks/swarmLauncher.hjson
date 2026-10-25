@@ -2,7 +2,7 @@
   type: "ItemTurret"
   name: "Swarm-launcher"
   localizedName: "Swarm Launcher"
-  description: "The Swarmer launcher shoots tiny homing drones that attack the enemy like angry wasps. Effective against groups."
+  description: "Shoots tiny homing drones that attack the enemy like angry wasps. Effective against groups."
   health: 5000
   size: 4
   inaccuracy: 350

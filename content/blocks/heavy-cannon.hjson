@@ -2,7 +2,7 @@
   type: "ItemTurret"
   name: "Heavy-Cannon"
   localizedName: "Heavy Cannon"
-  description: "The heavy cannon is fires heavy metals. The cannon requires a massive amount of coolant to shoot continuously."
+  description: "Fires heavy metals rapidly. The cannon requires a massive amount of coolant to shoot continuously."
   health: 600
   size: 2
   inaccuracy: 1

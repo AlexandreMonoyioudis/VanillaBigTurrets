@@ -1,8 +1,8 @@
 {
   type: "ItemTurret"
-  name: "Heavy-Cannon"
-  localizedName: "Heavy Cannon"
-  description: "The heavy cannon is fires heavy metals. The cannon requires a massive amount of coolant to shoot continuously."
+  name: "Shatter"
+  localizedName: "Shattern"
+  description: "Fires clumps of metaglass, plastanium or silicon missiles."
   health: 600
   size: 3
   inaccuracy: 10
@@ -122,5 +122,5 @@ plastanium: {
 }
 
   category: "turret"
-  research: "wave"
+  research: "Scatter"
 }
