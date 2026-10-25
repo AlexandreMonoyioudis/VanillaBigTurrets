@@ -9,7 +9,7 @@
   author: "AlexandreMonoyioudis"
 
   // A short description of what your mod adds to the game
-  description: "Turret spam is boring. These turrets are bigger stronger but require more complex supply chains for the early game, \n+ chain cannon that requires constant ammon supply. \n+ heavy cannon that requires constant coolant. \n + swarm launcher that uses silicon and electrisity.\n + 2x2 solar panel"
+  description: "Turret spam is boring. These turrets are bigger stronger but require more complex supply chains for the early game, \n+ chain cannon that requires constant ammon supply. \n+ heavy cannon that requires constant coolant.\n + shatter anti-air gun. \n + swarm launcher that uses silicon and electrisity.\n + 2x2 solar panel"
 
   // The current version of your mod
   version: "1.0"
