@@ -32,7 +32,7 @@
   ammoTypes: {
     copper: {
       speed: 20
-      damage: 25
+      damage: 40
       bulletWidth: 20
       bulletHeight: 22
       lifetime: 40
@@ -43,7 +43,7 @@
     metaglass:	{
 		type: ArtilleryBulletType
 		speed: 10
-		splashDamage: 40
+		splashDamage: 60
 		splashDamageRadius: 20
 		knockback: 0
 		lifetime: 20
@@ -53,7 +53,7 @@
 		fragBullet: {
 			type: BasicBulletType
 			speed: 5
-			damage: 10
+			damage: 15
 			width: 10
 			height: 12
 			shrinkY: 1
@@ -67,7 +67,7 @@
 
     lead: {
       speed: 10
-      damage: 100
+      damage: 150
       bulletWidth: 120
       bulletHeight: 120
       lifetime: 40
@@ -78,7 +78,7 @@
 
     graphite: {
       speed: 20
-      damage: 125
+      damage: 160
       bulletWidth: 120
       bulletHeight: 120
       lifetime: 40
@@ -89,20 +89,20 @@
 
     silicon: {
       speed: 20
-      damage: 125
+      damage: 155
       bulletWidth: 120
       bulletHeight: 120
       lifetime: 40
 		  pierce: true
       shootEffect: "shootBig2"
-	    reloadMultiplier: 0.5
+	    reloadMultiplier: 0.6
       homingPower: 0.5
       homingRange: 1
     }
 
     titanium: {
       speed: 20
-      damage: 80
+      damage: 110
       bulletWidth: 80
       bulletHeight: 80
       lifetime: 40
@@ -115,7 +115,7 @@
 	  backColor: FFAD7DFF
 	  status: burning
       speed: 20
-      damage: 125
+      damage: 155
       bulletWidth: 80
       bulletHeight: 80
       lifetime: 40
