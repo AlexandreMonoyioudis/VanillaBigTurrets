@@ -10,7 +10,6 @@
   reload: 500
   range: 220
   recoil: 2
-  shootSound: "shootSpectre"
   researchCostMultiplier: 0.35
   buildCostMultiplier: 0.75
   coolantMultiplier: 50
@@ -50,6 +49,7 @@
 		width: 20
 		height: 20
 		collidesTiles: true
+    shootEffect: "shootBig2"
 		fragBullet: {
 			type: BasicBulletType
 			speed: 5
