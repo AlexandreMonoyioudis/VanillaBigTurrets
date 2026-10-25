@@ -1,7 +1,7 @@
 {
   type: "ItemTurret"
   name: "Shatter"
-  localizedName: "Shattern"
+  localizedName: "Shatter"
   description: "Fires clumps of metaglass, plastanium or silicon missiles."
   health: 600
   size: 3
@@ -122,5 +122,5 @@ plastanium: {
 }
 
   category: "turret"
-  research: "Scatter"
+  research: "scatter"
 }
