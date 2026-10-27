@@ -7,13 +7,13 @@
   size: 3
   inaccuracy: 10
   ammoUseEffect: casing1
-  reload: 100
-  range: 400
+  reload: 150
+  range: 350
   recoil: 0.05
   ammoEjectBack: 2
-  researchCostMultiplier: 0.35
+  researchCostMultiplier: 2.5
   buildCostMultiplier: 0.75
-  coolantMultiplier: 20
+  coolantMultiplier: 5
   maxAmmo: 60
   ammoPerShot: 5
   rotateSpeed: 50
